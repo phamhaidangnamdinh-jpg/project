@@ -10,6 +10,8 @@ import com.Chicken.project.dto.response.LoginResponse;
 import com.Chicken.project.dto.response.PageResponse;
 import com.Chicken.project.dto.response.User.UserResponseForAdmin;
 import com.Chicken.project.dto.response.User.UserShortResponse;
+import com.Chicken.project.entity.UserPrincipal;
+import com.Chicken.project.entity.V_User;
 import com.Chicken.project.service.impl.UserServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
@@ -21,6 +23,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -85,8 +88,9 @@ public class UserController {
     @GetMapping("/{id}/detail")
 //    @PreAuthorize("hasAuthority('ROLE_VIEW_USER')")
     @PreAuthorize("fileRole(#req) or #id == authentication.principal.id")
-    public ResponseEntity<ApiResponse<UserResponseForAdmin>> viewUserDetail(HttpServletRequest req, @PathVariable Long id) {
-        UserResponseForAdmin user = service.viewUserDetail(id);
+    public ResponseEntity<ApiResponse<Object>> viewUserDetail(HttpServletRequest req, @PathVariable Long id, @AuthenticationPrincipal UserPrincipal up) {
+        V_User currentUser = up.getUser();
+        Object user = service.viewUserDetail(id, currentUser);
         if (user != null) {
             return responseConfig.success("ROLE_DETAIL_USER","user.detail.success", new Object[]{id}, user);
         }

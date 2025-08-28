@@ -43,8 +43,8 @@ public class BookController {
 //    }
 
     @GetMapping("/sync")
-    @PreAuthorize("hasRole('SYNC_BOOK')")
-    public ResponseEntity<ApiResponse<Object>> syncBooks() {
+    @PreAuthorize("fileRole(#request)")
+    public ResponseEntity<ApiResponse<Object>> syncBooks(HttpServletRequest request) {
         int added = syncService.syncGoogleBooks();
         return responseConfig.success("ROLE_SYNC_BOOK", "book.sync.success", new Object[]{added},null);
     }
@@ -114,6 +114,13 @@ public class BookController {
     @PreAuthorize("fileRole(#request)")
     public ResponseEntity<ApiResponse<List<String>>> importBooks(@RequestParam("file") MultipartFile file, HttpServletRequest request){
         String number = service.importBook(file);
+        return responseConfig.success("ROLE_IMPORT_BOOK", "book.import.success" +":"+number, new Object[]{number}, null);
+    }
+
+    @PostMapping("/import-excel")
+    @PreAuthorize("fileRole(#request)")
+    public ResponseEntity<ApiResponse<List<String>>> importBooksExcel(@RequestParam("file") MultipartFile file, HttpServletRequest request) throws IOException {
+        String number = service.importBookFromExcel(file);
         return responseConfig.success("ROLE_IMPORT_BOOK", "book.import.success" +":"+number, new Object[]{number}, null);
     }
 

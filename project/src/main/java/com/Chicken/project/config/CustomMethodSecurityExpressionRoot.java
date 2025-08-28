@@ -34,11 +34,11 @@ public class CustomMethodSecurityExpressionRoot extends SecurityExpressionRoot i
         String requiredPermission = roleProperties.getRequiredPermission(normalizedPath);
 //        System.out.println("permissions: "+ user.getRoleGroup().getFunctions().stream().toString());
 //        System.out.println(requiredPermission);
-//        System.out.println("🔒 Checking permission for URI: " + request.getRequestURI() + " | Normalized: " + normalizedPath);
-        log.info("🔒 Checking permission for URI: '{}' | Normalized: ''{}", request.getRequestURI(), normalizedPath);
+//        System.out.println("Checking permission for URI: " + request.getRequestURI() + " | Normalized: " + normalizedPath);
+        log.info("Checking permission for URI: '{}' | Normalized: ''{}", request.getRequestURI(), normalizedPath);
         if (requiredPermission == null) {
-//            System.out.println("❌ No permission mapping found in role.properties for path: " + normalizedPath);
-            log.warn("❌ No permission mapping found in role.properties for path: '{}'", normalizedPath);
+//            System.out.println("No permission mapping found in role.properties for path: " + normalizedPath);
+            log.warn("No permission mapping found in role.properties for path: '{}'", normalizedPath);
             return false;
         }
 
@@ -51,7 +51,7 @@ public class CustomMethodSecurityExpressionRoot extends SecurityExpressionRoot i
         StringBuilder sb = new StringBuilder();
         for (String part : parts) {
             if (part.isBlank() || part.matches("\\d+") || part.matches("[0-9a-fA-F\\-]{36}")) continue;
-            sb.append(".").append(part); // Use dot, not slash
+            sb.append(".").append(part);
         }
         return sb.length() > 0 ? sb.substring(1) : "";
     }

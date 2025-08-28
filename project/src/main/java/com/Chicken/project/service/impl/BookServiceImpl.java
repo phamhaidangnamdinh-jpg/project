@@ -331,7 +331,9 @@ public class BookServiceImpl implements BookService {
                     if (code.isEmpty()) {
                         throw new IllegalArgumentException("Missing 'code'");
                     }
-                    Book book = new Book();
+                    Book book;
+                    if(!repo.existsByCode(code)) book = new Book();
+                    else book = repo.findByCode(code);
                     book.setTitle(row1.getOrDefault("title", ""));
                     book.setAuthor(row1.getOrDefault("author", ""));
                     book.setPublisher(row1.getOrDefault("publisher", ""));
@@ -366,6 +368,8 @@ public class BookServiceImpl implements BookService {
             throw new BusinessException("error.file.read");
         }
     }
+
+
 
     public void exportFilteredBooks(String code, String title, String author, String publisher, HttpServletResponse response) throws IOException {
         log.info("Received request to export filtered book to csv");
@@ -456,7 +460,9 @@ public class BookServiceImpl implements BookService {
                     if (code.isEmpty()) {
                         throw new IllegalArgumentException("Missing 'code'");
                     }
-                    Book book = new Book();
+                    Book book;
+                    if(!repo.existsByCode(code)) book = new Book();
+                    else book = repo.findByCode(code);
                     book.setTitle(rowMap.getOrDefault("title", ""));
                     book.setAuthor(rowMap.getOrDefault("author", ""));
                     book.setPublisher(rowMap.getOrDefault("publisher", ""));

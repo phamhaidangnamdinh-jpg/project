@@ -189,14 +189,17 @@ public class UserServiceImpl implements UserService {
         return PageResponseUtil.fromPage(repo.findAll(pageable).map(this::toShortResponse));
     }
     @Override
-    public UserResponseForAdmin viewUserDetail(Long id)
+    public Object viewUserDetail(Long id, V_User currentUser)
     {
         log.info("Viewing details of user id '{}'", id);
+        boolean isAdmin = "ADMIN".equals(currentUser.getRoleGroup().getRoleGroupCode());
+        boolean isCurrentUser = currentUser.getId()==id;
         if(!repo.existsById(id)) {
             log.warn("User id '{}' not found", id);
             throw new BusinessException("error.user.notFound");
         }
-        return toResponse(repo.findById(id).orElseThrow());
+        if(isAdmin || isCurrentUser) return toResponse(repo.findById(id).orElseThrow());
+        else return toShortResponse(repo.findById(id).orElseThrow());
     }
     @Override
     public List<UserShortResponse> search(String keyword){

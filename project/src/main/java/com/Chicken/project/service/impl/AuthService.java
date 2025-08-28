@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -43,9 +44,13 @@ public class AuthService {
 
     public LoginResponse verify(LoginRequest request, HttpServletResponse response) {
         log.info("Login attempt for user '{}'", request.getUsername());
-        Authentication auth = authManager.authenticate(new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword()));
-        if(!auth.isAuthenticated()) {
-            log.warn("Authentication failed for user '{}'", request.getUsername());
+        Authentication auth;
+        try {
+            auth = authManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword())
+            );
+        } catch (AuthenticationException e) {
+            log.warn("Authentication failed for user '{}': {}", request.getUsername(), e.getMessage());
             return null;
         }
         String accessToken = jwtService.generateAccessToken(request.getUsername());
@@ -84,7 +89,7 @@ public class AuthService {
         cookie.setHttpOnly(true);
         cookie.setSecure(true);
         cookie.setPath("/");
-        cookie.setMaxAge(7 * 24 * 60 * 60);
+        cookie.setMaxAge(7 * 24 * 60 * 60 * 60);
         response.addCookie(cookie);
 
         LoginResponse.UserLogin userLogin = new LoginResponse.UserLogin(user.getId(), user.getUsername(), user.getEmail());

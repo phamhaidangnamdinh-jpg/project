@@ -1,26 +1,26 @@
-2025-08-27T09:44:14.517+07:00  INFO 13456 --- [restartedMain] com.Chicken.project.ProjectApplication   : Starting ProjectApplication using Java 24.0.1 with PID 13456 (C:\Users\ADMIN\Downloads\javaStuff\project\project\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\javaStuff\project)
-2025-08-27T09:44:14.524+07:00 DEBUG 13456 --- [restartedMain] com.Chicken.project.ProjectApplication   : Running with Spring Boot v3.5.0, Spring v6.2.7
-2025-08-27T09:44:14.525+07:00  INFO 13456 --- [restartedMain] com.Chicken.project.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-08-27T09:44:14.588+07:00  INFO 13456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-27T09:44:14.588+07:00  INFO 13456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-27T09:44:15.957+07:00  INFO 13456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-08-27T09:44:16.126+07:00  INFO 13456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 8 JPA repository interfaces.
-2025-08-27T09:44:17.246+07:00  INFO 13456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-27T09:44:17.273+07:00  INFO 13456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-27T09:44:17.274+07:00  INFO 13456 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
-2025-08-27T09:44:17.370+07:00  INFO 13456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-27T09:44:17.371+07:00  INFO 13456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2783 ms
-2025-08-27T09:44:17.415+07:00  INFO 13456 --- [restartedMain] c.C.project.service.impl.JWTService      : Secret key for JWT initialized.
-2025-08-27T09:44:17.471+07:00 DEBUG 13456 --- [restartedMain] com.Chicken.project.config.JwtFilter     : Filter 'jwtFilter' configured for use
-2025-08-27T09:44:17.670+07:00  INFO 13456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-08-27T09:44:17.751+07:00  INFO 13456 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2025-08-27T09:44:17.799+07:00  INFO 13456 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-08-27T09:44:18.156+07:00  INFO 13456 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-08-27T09:44:18.193+07:00  INFO 13456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-08-27T09:44:18.338+07:00  INFO 13456 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@67323fa8
-2025-08-27T09:44:18.339+07:00  INFO 13456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-08-27T09:44:18.373+07:00  WARN 13456 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-08-27T09:44:18.395+07:00  INFO 13456 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-08-28T11:51:14.501+07:00  INFO 10592 --- [restartedMain] com.Chicken.project.ProjectApplication   : Starting ProjectApplication using Java 24.0.1 with PID 10592 (C:\Users\ADMIN\Downloads\javaStuff\project\project\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\javaStuff\project)
+2025-08-28T11:51:14.507+07:00 DEBUG 10592 --- [restartedMain] com.Chicken.project.ProjectApplication   : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-28T11:51:14.508+07:00  INFO 10592 --- [restartedMain] com.Chicken.project.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-28T11:51:14.573+07:00  INFO 10592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-28T11:51:14.575+07:00  INFO 10592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-28T11:51:15.881+07:00  INFO 10592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-28T11:51:16.031+07:00  INFO 10592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 8 JPA repository interfaces.
+2025-08-28T11:51:17.145+07:00  INFO 10592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-28T11:51:17.174+07:00  INFO 10592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-28T11:51:17.175+07:00  INFO 10592 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-28T11:51:17.252+07:00  INFO 10592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-28T11:51:17.252+07:00  INFO 10592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2677 ms
+2025-08-28T11:51:17.297+07:00  INFO 10592 --- [restartedMain] c.C.project.service.impl.JWTService      : Secret key for JWT initialized.
+2025-08-28T11:51:17.349+07:00 DEBUG 10592 --- [restartedMain] com.Chicken.project.config.JwtFilter     : Filter 'jwtFilter' configured for use
+2025-08-28T11:51:17.547+07:00  INFO 10592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-28T11:51:17.627+07:00  INFO 10592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-28T11:51:17.678+07:00  INFO 10592 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-28T11:51:18.032+07:00  INFO 10592 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-28T11:51:18.069+07:00  INFO 10592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-28T11:51:18.204+07:00  INFO 10592 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@41c1adcd
+2025-08-28T11:51:18.205+07:00  INFO 10592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-28T11:51:18.238+07:00  WARN 10592 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-28T11:51:18.258+07:00  INFO 10592 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 11.8.2
@@ -28,49 +28,237 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-08-27T09:44:19.735+07:00  INFO 13456 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-08-27T09:44:19.898+07:00  INFO 13456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-08-27T09:44:20.236+07:00  INFO 13456 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-08-27T09:44:21.541+07:00  INFO 13456 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Creating AuthenticationManager from AuthenticationConfiguration
-2025-08-27T09:44:21.556+07:00  INFO 13456 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Configuring DaoAuthenticationProvider with custom UserDetailsService
-2025-08-27T09:44:21.561+07:00  INFO 13456 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Using BCryptPasswordEncoder with strength 12
-2025-08-27T09:44:21.564+07:00  INFO 13456 --- [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-08-27T09:44:21.564+07:00  WARN 13456 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-08-27T09:44:22.005+07:00  WARN 13456 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-08-27T09:44:22.317+07:00  INFO 13456 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Initializing SecurityFilterChain
-2025-08-27T09:44:22.317+07:00  INFO 13456 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Setting security rules: public endpoints and JWT filter
-2025-08-27T09:44:22.661+07:00  INFO 13456 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/myappdb?user=root&password=***'
-2025-08-27T09:44:22.751+07:00  INFO 13456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-27T09:44:22.785+07:00  INFO 13456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-27T09:44:22.798+07:00  INFO 13456 --- [restartedMain] c.C.project.utils.BorrowStatusUpdater    : Updating borrow status
-2025-08-27T09:44:23.010+07:00  INFO 13456 --- [restartedMain] com.Chicken.project.ProjectApplication   : Started ProjectApplication in 9.097 seconds (process running for 9.78)
-2025-08-27T09:44:43.502+07:00  INFO 13456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-27T09:44:43.502+07:00  INFO 13456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-08-27T09:44:43.504+07:00  INFO 13456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-08-27T09:44:43.530+07:00 DEBUG 13456 --- [http-nio-8080-exec-1] com.Chicken.project.config.JwtFilter     : No valid Authorization header found on request to '/api/v1/library/auth/login'
-2025-08-27T09:44:43.622+07:00  INFO 13456 --- [http-nio-8080-exec-1] c.C.project.service.impl.AuthService     : Login attempt for user 'johe'
-2025-08-27T09:44:44.409+07:00 DEBUG 13456 --- [http-nio-8080-exec-1] c.C.project.service.impl.JWTService      : Access token generated for 'johe'
-2025-08-27T09:44:44.410+07:00 DEBUG 13456 --- [http-nio-8080-exec-1] c.C.project.service.impl.JWTService      : Refresh token generated for 'johe'
-2025-08-27T09:44:44.481+07:00  INFO 13456 --- [http-nio-8080-exec-1] c.C.project.service.impl.AuthService     : User 'johe' logged in successfully
-2025-08-27T09:45:38.913+07:00 DEBUG 13456 --- [http-nio-8080-exec-4] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
-2025-08-27T09:45:38.913+07:00 DEBUG 13456 --- [http-nio-8080-exec-4] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
-2025-08-27T09:45:38.923+07:00 DEBUG 13456 --- [http-nio-8080-exec-4] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
-2025-08-27T09:45:38.924+07:00 DEBUG 13456 --- [http-nio-8080-exec-4] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
-2025-08-27T09:45:38.977+07:00  INFO 13456 --- [http-nio-8080-exec-4] C.p.c.CustomMethodSecurityExpressionRoot : 🔒 Checking permission for URI: '/api/v1/library/user/1/update' | Normalized: ''api.v1.library.user.update
-2025-08-27T09:45:38.979+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.UserServiceImpl       : Received request to update user id 1
-2025-08-27T09:45:38.996+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.UserServiceImpl       : updated user
-2025-08-27T09:45:38.999+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.UserServiceImpl       : Converting user information into response
-2025-08-27T09:45:39.004+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.BookServiceImpl       : Converting response id '1' into response
-2025-08-27T09:45:39.005+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.BookServiceImpl       : Converting response id '2' into response
-2025-08-27T09:45:39.005+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.BookServiceImpl       : Converting response id '3' into response
-2025-08-27T09:45:39.005+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.UserServiceImpl       : Received request to update user id 1
-2025-08-27T09:45:39.008+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.UserServiceImpl       : updated user
-2025-08-27T09:45:39.014+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.UserServiceImpl       : Converting user information into response
-2025-08-27T09:45:39.014+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.BookServiceImpl       : Converting response id '1' into response
-2025-08-27T09:45:39.015+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.BookServiceImpl       : Converting response id '2' into response
-2025-08-27T09:45:39.015+07:00  INFO 13456 --- [http-nio-8080-exec-4] c.C.p.service.impl.BookServiceImpl       : Converting response id '3' into response
-2025-08-27T09:45:56.994+07:00  INFO 13456 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-27T09:45:57.013+07:00  INFO 13456 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-27T09:45:57.019+07:00  INFO 13456 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-08-27T09:45:57.022+07:00  INFO 13456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-08-27T09:45:57.027+07:00  INFO 13456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-28T11:51:19.588+07:00  INFO 10592 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-28T11:51:19.696+07:00  INFO 10592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-28T11:51:20.087+07:00  INFO 10592 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-28T11:51:21.821+07:00  INFO 10592 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Creating AuthenticationManager from AuthenticationConfiguration
+2025-08-28T11:51:21.837+07:00  INFO 10592 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Configuring DaoAuthenticationProvider with custom UserDetailsService
+2025-08-28T11:51:21.842+07:00  INFO 10592 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Using BCryptPasswordEncoder with strength 12
+2025-08-28T11:51:21.844+07:00  INFO 10592 --- [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-08-28T11:51:21.845+07:00  WARN 10592 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-08-28T11:51:22.333+07:00  WARN 10592 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-28T11:51:22.630+07:00  INFO 10592 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Initializing SecurityFilterChain
+2025-08-28T11:51:22.630+07:00  INFO 10592 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Setting security rules: public endpoints and JWT filter
+2025-08-28T11:51:23.019+07:00  INFO 10592 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/myappdb?user=root&password=***'
+2025-08-28T11:51:23.128+07:00  INFO 10592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-28T11:51:23.165+07:00  INFO 10592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-28T11:51:23.178+07:00  INFO 10592 --- [restartedMain] c.C.project.utils.BorrowStatusUpdater    : Updating borrow status
+2025-08-28T11:51:23.412+07:00  INFO 10592 --- [restartedMain] com.Chicken.project.ProjectApplication   : Started ProjectApplication in 9.519 seconds (process running for 10.182)
+2025-08-28T11:51:51.548+07:00  INFO 10592 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-28T11:51:51.548+07:00  INFO 10592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-28T11:51:51.549+07:00  INFO 10592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-28T11:51:51.575+07:00 DEBUG 10592 --- [http-nio-8080-exec-2] com.Chicken.project.config.JwtFilter     : No valid Authorization header found on request to '/api/v1/library/auth/login'
+2025-08-28T11:51:51.673+07:00  INFO 10592 --- [http-nio-8080-exec-2] c.C.project.service.impl.AuthService     : Login attempt for user 'johe'
+2025-08-28T11:51:52.466+07:00 DEBUG 10592 --- [http-nio-8080-exec-2] c.C.project.service.impl.JWTService      : Access token generated for 'johe'
+2025-08-28T11:51:52.467+07:00 DEBUG 10592 --- [http-nio-8080-exec-2] c.C.project.service.impl.JWTService      : Refresh token generated for 'johe'
+2025-08-28T11:51:52.532+07:00  INFO 10592 --- [http-nio-8080-exec-2] c.C.project.service.impl.AuthService     : User 'johe' logged in successfully
+2025-08-28T11:53:51.202+07:00 DEBUG 10592 --- [http-nio-8080-exec-5] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:53:51.202+07:00 DEBUG 10592 --- [http-nio-8080-exec-5] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T11:53:51.214+07:00 DEBUG 10592 --- [http-nio-8080-exec-5] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:53:51.216+07:00 DEBUG 10592 --- [http-nio-8080-exec-5] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T11:53:51.235+07:00  WARN 10592 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.]
+2025-08-28T11:54:12.461+07:00 DEBUG 10592 --- [http-nio-8080-exec-9] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:54:12.461+07:00 DEBUG 10592 --- [http-nio-8080-exec-9] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T11:54:12.470+07:00 DEBUG 10592 --- [http-nio-8080-exec-9] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:54:12.471+07:00 DEBUG 10592 --- [http-nio-8080-exec-9] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T11:54:31.902+07:00 DEBUG 10592 --- [http-nio-8080-exec-7] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:54:31.904+07:00 DEBUG 10592 --- [http-nio-8080-exec-7] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T11:54:31.915+07:00 DEBUG 10592 --- [http-nio-8080-exec-7] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:54:31.916+07:00 DEBUG 10592 --- [http-nio-8080-exec-7] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T11:55:13.651+07:00  INFO 10592 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-28T11:55:13.669+07:00  INFO 10592 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-28T11:55:13.674+07:00  INFO 10592 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-28T11:55:13.678+07:00  INFO 10592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-28T11:55:13.682+07:00  INFO 10592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-28T11:55:18.504+07:00  INFO 22976 --- [restartedMain] com.Chicken.project.ProjectApplication   : Starting ProjectApplication using Java 24.0.1 with PID 22976 (C:\Users\ADMIN\Downloads\javaStuff\project\project\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\javaStuff\project)
+2025-08-28T11:55:18.506+07:00 DEBUG 22976 --- [restartedMain] com.Chicken.project.ProjectApplication   : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-28T11:55:18.507+07:00  INFO 22976 --- [restartedMain] com.Chicken.project.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-28T11:55:18.561+07:00  INFO 22976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-28T11:55:18.561+07:00  INFO 22976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-28T11:55:19.659+07:00  INFO 22976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-28T11:55:19.794+07:00  INFO 22976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 8 JPA repository interfaces.
+2025-08-28T11:55:20.786+07:00  INFO 22976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-28T11:55:20.809+07:00  INFO 22976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-28T11:55:20.809+07:00  INFO 22976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-28T11:55:20.884+07:00  INFO 22976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-28T11:55:20.884+07:00  INFO 22976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2322 ms
+2025-08-28T11:55:20.929+07:00  INFO 22976 --- [restartedMain] c.C.project.service.impl.JWTService      : Secret key for JWT initialized.
+2025-08-28T11:55:20.975+07:00 DEBUG 22976 --- [restartedMain] com.Chicken.project.config.JwtFilter     : Filter 'jwtFilter' configured for use
+2025-08-28T11:55:21.150+07:00  INFO 22976 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-28T11:55:21.214+07:00  INFO 22976 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-28T11:55:21.261+07:00  INFO 22976 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-28T11:55:21.593+07:00  INFO 22976 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-28T11:55:21.624+07:00  INFO 22976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-28T11:55:21.720+07:00  INFO 22976 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2337ebe6
+2025-08-28T11:55:21.722+07:00  INFO 22976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-28T11:55:21.752+07:00  WARN 22976 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-28T11:55:21.770+07:00  INFO 22976 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-28T11:55:22.972+07:00  INFO 22976 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-28T11:55:23.056+07:00  INFO 22976 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-28T11:55:23.424+07:00  INFO 22976 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-28T11:55:24.663+07:00  INFO 22976 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Creating AuthenticationManager from AuthenticationConfiguration
+2025-08-28T11:55:24.681+07:00  INFO 22976 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Configuring DaoAuthenticationProvider with custom UserDetailsService
+2025-08-28T11:55:24.687+07:00  INFO 22976 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Using BCryptPasswordEncoder with strength 12
+2025-08-28T11:55:24.689+07:00  INFO 22976 --- [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-08-28T11:55:24.689+07:00  WARN 22976 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-08-28T11:55:25.117+07:00  WARN 22976 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-28T11:55:25.391+07:00  INFO 22976 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Initializing SecurityFilterChain
+2025-08-28T11:55:25.392+07:00  INFO 22976 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Setting security rules: public endpoints and JWT filter
+2025-08-28T11:55:25.731+07:00  INFO 22976 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/myappdb?user=root&password=***'
+2025-08-28T11:55:25.829+07:00  INFO 22976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-28T11:55:25.863+07:00  INFO 22976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-28T11:55:25.878+07:00  INFO 22976 --- [restartedMain] c.C.project.utils.BorrowStatusUpdater    : Updating borrow status
+2025-08-28T11:55:26.100+07:00  INFO 22976 --- [restartedMain] com.Chicken.project.ProjectApplication   : Started ProjectApplication in 8.155 seconds (process running for 8.766)
+2025-08-28T11:55:26.640+07:00  INFO 22976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-28T11:55:26.640+07:00  INFO 22976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-28T11:55:26.641+07:00  INFO 22976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-28T11:55:26.661+07:00 DEBUG 22976 --- [http-nio-8080-exec-1] com.Chicken.project.config.JwtFilter     : No valid Authorization header found on request to '/api/v1/library/auth/login'
+2025-08-28T11:55:26.744+07:00  INFO 22976 --- [http-nio-8080-exec-1] c.C.project.service.impl.AuthService     : Login attempt for user 'johe'
+2025-08-28T11:55:27.483+07:00 DEBUG 22976 --- [http-nio-8080-exec-1] c.C.project.service.impl.JWTService      : Access token generated for 'johe'
+2025-08-28T11:55:27.484+07:00 DEBUG 22976 --- [http-nio-8080-exec-1] c.C.project.service.impl.JWTService      : Refresh token generated for 'johe'
+2025-08-28T11:55:27.536+07:00  INFO 22976 --- [http-nio-8080-exec-1] c.C.project.service.impl.AuthService     : User 'johe' logged in successfully
+2025-08-28T11:55:38.135+07:00 DEBUG 22976 --- [http-nio-8080-exec-3] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:55:38.135+07:00 DEBUG 22976 --- [http-nio-8080-exec-3] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T11:55:38.143+07:00 DEBUG 22976 --- [http-nio-8080-exec-3] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:55:38.145+07:00 DEBUG 22976 --- [http-nio-8080-exec-3] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T11:57:17.388+07:00 DEBUG 22976 --- [http-nio-8080-exec-6] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:57:17.388+07:00 DEBUG 22976 --- [http-nio-8080-exec-6] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T11:57:17.400+07:00 DEBUG 22976 --- [http-nio-8080-exec-6] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:57:17.401+07:00 DEBUG 22976 --- [http-nio-8080-exec-6] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T11:57:28.528+07:00 DEBUG 22976 --- [http-nio-8080-exec-8] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:57:28.528+07:00 DEBUG 22976 --- [http-nio-8080-exec-8] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T11:57:28.538+07:00 DEBUG 22976 --- [http-nio-8080-exec-8] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T11:57:28.539+07:00 DEBUG 22976 --- [http-nio-8080-exec-8] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T11:57:28.557+07:00  INFO 22976 --- [http-nio-8080-exec-8] C.p.c.CustomMethodSecurityExpressionRoot : Checking permission for URI: '/api/v1/library/book/import' | Normalized: ''api.v1.library.book.import
+2025-08-28T11:57:28.558+07:00  INFO 22976 --- [http-nio-8080-exec-8] c.C.p.service.impl.BookServiceImpl       : Received request to import book from csv
+2025-08-28T11:57:28.665+07:00  INFO 22976 --- [http-nio-8080-exec-8] c.C.p.service.impl.BookServiceImpl       : Imported books from csv
+2025-08-28T12:28:21.071+07:00  WARN 22976 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m57s969ms860µs400ns).
+2025-08-28T12:56:18.461+07:00  INFO 30356 --- [restartedMain] com.Chicken.project.ProjectApplication   : Starting ProjectApplication using Java 24.0.1 with PID 30356 (C:\Users\ADMIN\Downloads\javaStuff\project\project\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\javaStuff\project)
+2025-08-28T12:56:18.463+07:00 DEBUG 30356 --- [restartedMain] com.Chicken.project.ProjectApplication   : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-28T12:56:18.464+07:00  INFO 30356 --- [restartedMain] com.Chicken.project.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-28T12:56:18.529+07:00  INFO 30356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-28T12:56:18.529+07:00  INFO 30356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-28T12:56:20.106+07:00  INFO 30356 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-28T12:56:20.272+07:00  INFO 30356 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 8 JPA repository interfaces.
+2025-08-28T12:56:21.426+07:00  INFO 30356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-28T12:56:21.453+07:00  INFO 30356 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-28T12:56:21.455+07:00  INFO 30356 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-28T12:56:21.539+07:00  INFO 30356 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-28T12:56:21.540+07:00  INFO 30356 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3010 ms
+2025-08-28T12:56:21.588+07:00  INFO 30356 --- [restartedMain] c.C.project.service.impl.JWTService      : Secret key for JWT initialized.
+2025-08-28T12:56:21.640+07:00 DEBUG 30356 --- [restartedMain] com.Chicken.project.config.JwtFilter     : Filter 'jwtFilter' configured for use
+2025-08-28T12:56:21.853+07:00  INFO 30356 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-28T12:56:21.946+07:00  INFO 30356 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-28T12:56:22.001+07:00  INFO 30356 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-28T12:56:22.365+07:00  INFO 30356 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-28T12:56:22.400+07:00  INFO 30356 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-28T12:56:22.532+07:00  INFO 30356 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4ea0c185
+2025-08-28T12:56:22.534+07:00  INFO 30356 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-28T12:56:22.566+07:00  WARN 30356 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-28T12:56:22.586+07:00  INFO 30356 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-28T12:56:23.824+07:00  INFO 30356 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-28T12:56:23.908+07:00  INFO 30356 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-28T12:56:24.240+07:00  INFO 30356 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-28T12:56:25.702+07:00  INFO 30356 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Creating AuthenticationManager from AuthenticationConfiguration
+2025-08-28T12:56:25.721+07:00  INFO 30356 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Configuring DaoAuthenticationProvider with custom UserDetailsService
+2025-08-28T12:56:25.725+07:00  INFO 30356 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Using BCryptPasswordEncoder with strength 12
+2025-08-28T12:56:25.728+07:00  INFO 30356 --- [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-08-28T12:56:25.728+07:00  WARN 30356 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-08-28T12:56:26.214+07:00  WARN 30356 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-28T12:56:26.547+07:00  INFO 30356 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Initializing SecurityFilterChain
+2025-08-28T12:56:26.547+07:00  INFO 30356 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Setting security rules: public endpoints and JWT filter
+2025-08-28T12:56:26.909+07:00  INFO 30356 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/myappdb?user=root&password=***'
+2025-08-28T12:56:27.007+07:00  INFO 30356 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-28T12:56:27.044+07:00  INFO 30356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-28T12:56:27.058+07:00  INFO 30356 --- [restartedMain] c.C.project.utils.BorrowStatusUpdater    : Updating borrow status
+2025-08-28T12:56:27.281+07:00  INFO 30356 --- [restartedMain] com.Chicken.project.ProjectApplication   : Started ProjectApplication in 9.5 seconds (process running for 10.285)
+2025-08-28T12:56:44.313+07:00  INFO 30356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-28T12:56:44.313+07:00  INFO 30356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-28T12:56:44.316+07:00  INFO 30356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-28T12:56:44.339+07:00 DEBUG 30356 --- [http-nio-8080-exec-1] com.Chicken.project.config.JwtFilter     : No valid Authorization header found on request to '/api/v1/library/auth/login'
+2025-08-28T12:56:44.438+07:00  INFO 30356 --- [http-nio-8080-exec-1] c.C.project.service.impl.AuthService     : Login attempt for user 'johe'
+2025-08-28T12:56:45.230+07:00 DEBUG 30356 --- [http-nio-8080-exec-1] c.C.project.service.impl.JWTService      : Access token generated for 'johe'
+2025-08-28T12:56:45.231+07:00 DEBUG 30356 --- [http-nio-8080-exec-1] c.C.project.service.impl.JWTService      : Refresh token generated for 'johe'
+2025-08-28T12:56:45.294+07:00  INFO 30356 --- [http-nio-8080-exec-1] c.C.project.service.impl.AuthService     : User 'johe' logged in successfully
+2025-08-28T12:56:58.228+07:00 DEBUG 30356 --- [http-nio-8080-exec-2] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T12:56:58.229+07:00 DEBUG 30356 --- [http-nio-8080-exec-2] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T12:56:58.239+07:00 DEBUG 30356 --- [http-nio-8080-exec-2] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T12:56:58.241+07:00 DEBUG 30356 --- [http-nio-8080-exec-2] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T12:56:58.275+07:00  INFO 30356 --- [http-nio-8080-exec-2] C.p.c.CustomMethodSecurityExpressionRoot : Checking permission for URI: '/api/v1/library/book/import-excel' | Normalized: ''api.v1.library.book.import-excel
+2025-08-28T12:56:58.276+07:00  INFO 30356 --- [http-nio-8080-exec-2] c.C.p.service.impl.BookServiceImpl       : Received request to import book from excel
+2025-08-28T12:57:18.090+07:00 DEBUG 30356 --- [http-nio-8080-exec-4] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T12:57:18.090+07:00 DEBUG 30356 --- [http-nio-8080-exec-4] com.Chicken.project.config.JwtFilter     : Extracted username 'johe' from token
+2025-08-28T12:57:18.101+07:00 DEBUG 30356 --- [http-nio-8080-exec-4] c.C.project.service.impl.JWTService      : Username 'johe' extracted from token
+2025-08-28T12:57:18.101+07:00 DEBUG 30356 --- [http-nio-8080-exec-4] com.Chicken.project.config.JwtFilter     : Authentication set for user 'johe'
+2025-08-28T12:57:18.101+07:00  INFO 30356 --- [http-nio-8080-exec-4] C.p.c.CustomMethodSecurityExpressionRoot : Checking permission for URI: '/api/v1/library/book/import-excel' | Normalized: ''api.v1.library.book.import-excel
+2025-08-28T12:57:18.101+07:00  INFO 30356 --- [http-nio-8080-exec-4] c.C.p.service.impl.BookServiceImpl       : Received request to import book from excel
+2025-08-28T12:57:35.001+07:00  INFO 30356 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-28T12:57:35.018+07:00  INFO 30356 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-28T12:57:35.025+07:00  INFO 30356 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-28T12:57:35.028+07:00  INFO 30356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-28T12:57:35.031+07:00  INFO 30356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-28T13:49:57.469+07:00  INFO 16320 --- [restartedMain] com.Chicken.project.ProjectApplication   : Starting ProjectApplication using Java 24.0.1 with PID 16320 (C:\Users\ADMIN\Downloads\javaStuff\project\project\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\javaStuff\project)
+2025-08-28T13:49:57.471+07:00 DEBUG 16320 --- [restartedMain] com.Chicken.project.ProjectApplication   : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-28T13:49:57.471+07:00  INFO 16320 --- [restartedMain] com.Chicken.project.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-28T13:49:57.532+07:00  INFO 16320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-28T13:49:57.533+07:00  INFO 16320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-28T13:49:58.801+07:00  INFO 16320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-28T13:49:58.939+07:00  INFO 16320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 8 JPA repository interfaces.
+2025-08-28T13:49:59.989+07:00  INFO 16320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-28T13:50:00.018+07:00  INFO 16320 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-28T13:50:00.018+07:00  INFO 16320 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-28T13:50:00.137+07:00  INFO 16320 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-28T13:50:00.138+07:00  INFO 16320 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2605 ms
+2025-08-28T13:50:00.188+07:00  INFO 16320 --- [restartedMain] c.C.project.service.impl.JWTService      : Secret key for JWT initialized.
+2025-08-28T13:50:00.257+07:00 DEBUG 16320 --- [restartedMain] com.Chicken.project.config.JwtFilter     : Filter 'jwtFilter' configured for use
+2025-08-28T13:50:00.478+07:00  INFO 16320 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-28T13:50:00.566+07:00  INFO 16320 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-28T13:50:00.626+07:00  INFO 16320 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-28T13:50:01.002+07:00  INFO 16320 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-28T13:50:01.039+07:00  INFO 16320 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-28T13:50:01.147+07:00  INFO 16320 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@137bca0a
+2025-08-28T13:50:01.149+07:00  INFO 16320 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-28T13:50:01.181+07:00  WARN 16320 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-28T13:50:01.203+07:00  INFO 16320 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-28T13:50:02.495+07:00  INFO 16320 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-28T13:50:02.580+07:00  INFO 16320 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-28T13:50:02.928+07:00  INFO 16320 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-28T13:50:04.180+07:00  INFO 16320 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Creating AuthenticationManager from AuthenticationConfiguration
+2025-08-28T13:50:04.196+07:00  INFO 16320 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Configuring DaoAuthenticationProvider with custom UserDetailsService
+2025-08-28T13:50:04.202+07:00  INFO 16320 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Using BCryptPasswordEncoder with strength 12
+2025-08-28T13:50:04.203+07:00  INFO 16320 --- [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-08-28T13:50:04.204+07:00  WARN 16320 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-08-28T13:50:04.640+07:00  WARN 16320 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-28T13:50:04.906+07:00  INFO 16320 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Initializing SecurityFilterChain
+2025-08-28T13:50:04.906+07:00  INFO 16320 --- [restartedMain] c.Chicken.project.config.SecurityConfig  : Setting security rules: public endpoints and JWT filter
+2025-08-28T13:50:05.216+07:00  INFO 16320 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/myappdb?user=root&password=***'
+2025-08-28T13:50:05.311+07:00  INFO 16320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-28T13:50:05.346+07:00  INFO 16320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-28T13:50:05.357+07:00  INFO 16320 --- [restartedMain] c.C.project.utils.BorrowStatusUpdater    : Updating borrow status
+2025-08-28T13:50:05.574+07:00  INFO 16320 --- [restartedMain] com.Chicken.project.ProjectApplication   : Started ProjectApplication in 8.716 seconds (process running for 9.408)
+2025-08-28T13:50:11.533+07:00  INFO 16320 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-28T13:50:11.551+07:00  INFO 16320 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-28T13:50:11.557+07:00  INFO 16320 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-28T13:50:11.561+07:00  INFO 16320 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-28T13:50:11.564+07:00  INFO 16320 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -7,6 +7,7 @@ import com.Chicken.project.dto.response.LoginResponse;
 import com.Chicken.project.dto.response.PageResponse;
 import com.Chicken.project.dto.response.User.UserResponseForAdmin;
 import com.Chicken.project.dto.response.User.UserShortResponse;
+import com.Chicken.project.entity.V_User;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.ByteArrayInputStream;
@@ -16,7 +17,7 @@ import java.util.List;
 public interface UserService {
     UserResponseForAdmin createUser(UserRequest userRequest);
     PageResponse<UserShortResponse> viewUser(int page, int size);
-    UserResponseForAdmin viewUserDetail(Long id);
+    Object viewUserDetail(Long id, V_User currentUser);
     UserResponseForAdmin updateUser(long id, UserUpdateRequest userRequest);
     List<UserShortResponse> search(String keyword);
     boolean deleteUser(long id);
